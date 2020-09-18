@@ -1,0 +1,56 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Font Sizes
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+@mixin font-size-xxs {
+  font-size: 10px;
+  line-height: 18px;
+  min-height: 18px;
+}
+
+@mixin font-size-xs {
+  font-size: 12px;
+  line-height: 20px;
+  min-height: 20px;
+}
+
+@mixin font-size-s {
+  font-size: 14px;
+  line-height: 22px;
+  min-height: 22px;
+}
+
+@mixin font-size-m {
+  font-size: 16px;
+  line-height: 24px;
+  min-height: 24px;
+}
+
+@mixin font-size-l {
+  font-size: 20px;
+  line-height: 32px;
+  min-height: 32px;
+}
+
+@mixin font-size-xl {
+  font-size: 24px;
+  line-height: 40px;
+  min-height: 40px;
+}
+
+@mixin font-size-xxl {
+  font-size: 32px;
+  line-height: 48px;
+  min-height: 48px;
+}
+
+// Classes
+// -------------------------------------------------------------
+.font-size-xxs { @include font-size-xxs; }
+.font-size-xs  { @include font-size-xs; }
+.font-size-s   { @include font-size-s; }
+.font-size-m   { @include font-size-m; }
+.font-size-l   { @include font-size-l; }
+.font-size-xl  { @include font-size-xl; }
+.font-size-xxl { @include font-size-xxl; }

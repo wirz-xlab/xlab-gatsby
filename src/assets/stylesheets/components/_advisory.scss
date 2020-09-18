@@ -1,0 +1,107 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Advisory
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$class: "advisory";
+
+.#{$class} {
+  @include fixed;
+  bottom: 0;
+  float: left;
+  left: 0;
+  right: 0;
+  width: 100%;
+  .#{$class}-box {
+    background-color: $white;
+    float: left;
+    padding: 8px;
+    width: 960px;
+    .#{$class}-row {
+      float: left;
+      padding: 8px;
+      width: 100%;
+    }
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  .#{$class} {
+    .#{$class}-box {
+      width: 240px;
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+  .#{$class} {
+    .#{$class}-box {
+      width: 360px;
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  .#{$class} {
+    .#{$class}-box {
+      width: 480px;
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  .#{$class} {
+    .#{$class}-box {
+      width: 720px;
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
+}
