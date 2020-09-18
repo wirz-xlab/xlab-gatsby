@@ -5,7 +5,7 @@ module.exports = {
     lang: "en",
     title: "xLab",
     description: "Kick off your next, great Gatsby project with this default starter.",
-    url: "https://www.example.com", // No trailing slash allowed!
+    url: "https://xlab-gatsby.netlify.app/", // No trailing slash allowed!
     image: "/images/og.png",
     tags: "Wirz, xLab, Technology",
     type: "website",

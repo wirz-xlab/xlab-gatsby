@@ -24,6 +24,7 @@ export default function Index() {
     <Primary>
       <Metadata />
       <SplashScreens />
+      <h1 className="font-size-xxl text-align-center">{site.siteMetadata.title}</h1>
     </Primary>
   )
 }
