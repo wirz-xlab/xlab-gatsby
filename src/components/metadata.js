@@ -40,6 +40,14 @@ export default function Metadata({ description, image, lang, url, tags, title, t
       {/* PWA */}
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="mobile-web-app-capable" content="yes" />
+      <style type="text/css">
+        {`
+          html,
+          body {
+            background: #000;
+          }
+        `}
+      </style>
       {/* Base */}
       <title>{meta.title}</title>
       <meta name="description" content={meta.description} />
